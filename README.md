@@ -7,4 +7,5 @@ The goal is to provide community-driven experiments, examples, discoveries, and 
 ![./assets/Jolly-Field-Notes.png](./assets/Jolly-Field-Notes.png)
 
 
-- [Q001](./docs/q001-programatic-user-wonder-full.md) Is it possible to use Meta Wonder Full Programmatically?
+- [Q001](./docs/q001-programatic-user-wonder-full/question.md) Is it possible to use Meta Wonder Full Programmatically?
+- [Q002](./docs/q002-muse-code-sessions/question.md) Are Muse Code Sessions portable and do Muse Code Subscription Sessions expire?
