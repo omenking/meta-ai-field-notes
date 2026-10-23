@@ -1,7 +1,7 @@
 ---
 question:  Is it possible to use Meta Wonder Full Programmatically?
 date: 2026-10-23
-status:  inferred
+status:  verified
 scope:
   - meta-wonder-full-1.0
   - muse-code-headless
