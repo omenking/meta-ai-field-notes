@@ -6,6 +6,36 @@ The goal is to provide community-driven experiments, examples, discoveries, and 
 
 ![./assets/Jolly-Field-Notes.png](./assets/Jolly-Field-Notes.png)
 
+## Before You Build
+
+Before you start building there are features lacking around billing and safety
+that could cause you to have a very bad day. 
+
+Make sure you complete this guide before you dare start building:
+
+- [Day Zero Billing and Safety Checklist](./day-zero-billing-and-safety-checklist/guide.md)
+
+## Technical Exploration Questions
+
+These are questions raised about technical features or 
 
 - [Q001](./docs/q001-programatic-user-wonder-full/question.md) [verified] Is it possible to use Meta Wonder Full Programmatically?
 - [Q002](./docs/q002-muse-code-sessions/question.md) [unexplored] Are Muse Code Sessions portable and do Muse Code Subscription Sessions expire?
+
+
+## Meta Feature Requests
+
+These are features I Think Meta Model API should consider adding.
+Meta if you're reading, have at em:
+
+### API Key Management
+
+- add `set expiry` setting when creating an API key
+  - discourage setting `no expiry` option and have them checkbox an aknowledement
+- allow you to delete the last key
+- allow you to deactivate/activate a key
+- for spending limits actually add a limit where spend stops:
+  - at the key level
+  - at the account level
+- for spending notification add the ability to add multiple notifications for the month
+  - allow you to specify a percentage from your spending limit
