@@ -21,6 +21,7 @@ These are questions raised about technical features or
 
 - [Q001](./docs/q001-programatic-user-wonder-full/question.md) [verified] Is it possible to use Meta Wonder Full Programmatically?
 - [Q002](./docs/q002-muse-code-sessions/question.md) [unexplored] Are Muse Code Sessions portable and do Muse Code Subscription Sessions expire?
+- [Q003](./docs/q003-lawnmower-sim-engine-comparison/question.md) [unexplored] How do results change when the same one-shot prompt is built through different toolchains?
 
 ## Communtiy Tools
 

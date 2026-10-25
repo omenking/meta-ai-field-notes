@@ -1,0 +1,7 @@
+# Windows Zone Identifier streams copied down from downloads
+*:Zone.Identifier
+*Zone.Identifier*
+
+# macOS Finder metadata
+.DS_Store
+**/.DS_Store
