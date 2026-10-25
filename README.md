@@ -22,6 +22,10 @@ These are questions raised about technical features or
 - [Q001](./docs/q001-programatic-user-wonder-full/question.md) [verified] Is it possible to use Meta Wonder Full Programmatically?
 - [Q002](./docs/q002-muse-code-sessions/question.md) [unexplored] Are Muse Code Sessions portable and do Muse Code Subscription Sessions expire?
 
+## Communtiy Tools
+
+- [Meta Benchmark](https://github.com/danphillips-cloud/meta-benchmark) a way of measuring one-shots
+- [Meta Cost Center](https://github.com/omenking/meta-costcenter) a way of tracking spend and token usage based on local machine logging, can also set your own more robust billing notifications.
 
 ## Meta Feature Requests
 
