@@ -13,7 +13,7 @@ that could cause you to have a very bad day.
 
 Make sure you complete this guide before you dare start building:
 
-- [Day Zero Billing and Safety Checklist](./day-zero-billing-and-safety-checklist/guide.md)
+- [Day Zero Billing and Safety Checklist](./docs/day-zero-billing-and-safety-checklist/guide.md)
 
 ## Technical Exploration Questions
 
