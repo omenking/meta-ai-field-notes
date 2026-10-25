@@ -67,7 +67,7 @@ Known Meta Model API limitations in full:
 - you cannot delete all keys, one must remain, so in order to rotate the remainder a new key must be created
 - there no option to activate/deactivate keys
 - there is no option to set key expiry, all keys are long lived.
-- they use Pay-As-You-Go instead of On-demand so a runway bill is possible
+- they use Pay-As-You-Go instead of Pre-Pay so a runway bill is possible
 - they have no spending limit option to spot spend when reaching a specific dollar amount
   - no option for account or key to set a hard speneding limit
 - they let you set a billing notification when pass a specific dollar amount
