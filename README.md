@@ -27,6 +27,7 @@ These are questions raised about technical features or
 
 - [Meta Benchmark](https://github.com/danphillips-cloud/meta-benchmark) a way of measuring one-shots
 - [Meta Cost Center](https://github.com/omenking/meta-costcenter) a way of tracking spend and token usage based on local machine logging, can also set your own more robust billing notifications.
+- [Meta Keygaurd](https://github.com/omenking/meta-keyguard) better management of your meta API keys.
 
 ## Meta Feature Requests
 

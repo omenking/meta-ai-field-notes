@@ -2,6 +2,15 @@
 
 Track local Muse Code token usage and estimated API costs. Requires Linux or WSL (amd64 or arm64) and a browser. No API key is needed.
 
+## 0. Create a test project
+
+```bash
+mkdir -p ~/Projects/day-zero-test
+cd ~/Projects/day-zero-test
+```
+
+Use this folder for every Muse session in both guides. Cost Center uses the workspace folder name, `day-zero-test`, as the project label. This is a local usage group; creating a folder does not restrict an API key's permissions.
+
 ## 1. Install
 
 Run in Linux or WSL:
@@ -30,19 +39,21 @@ Leave the command running for live updates. Press Ctrl+C to stop.
 
 ## 3. Test a $0.01 spending alert
 
-Set a one-cent monthly budget:
+Start a Muse Code session from `~/Projects/day-zero-test` and run one small task so Cost Center can discover the project. This incurs usage charges. Then open **Alerts**, create an alert, and set:
 
-```bash
-meta-cost alert set --monthly-usd 0.01 --at 100
-meta-cost month
-```
+- **Project:** `day-zero-test` (instead of all projects).
+- **Period:** monthly.
+- **Limit:** `$0.01` USD.
+- **Warning:** `100%`.
+
+Save the alert. Keep key revocation off until the Keyguard test below.
 
 1. Keep the dashboard open on **Alerts**.
-2. Run a small Muse Code task on this machine, then check `meta-cost month`.
+2. Run small Muse Code tasks from the same folder, then check `meta-cost month --project day-zero-test`.
 3. If the estimated monthly cost is still below $0.01, repeat with another small task. Stop once it exceeds $0.01; this test incurs usage charges.
 4. Allow about 15 seconds for collection. Confirm the dashboard shows the alert at or above 100% and displays a spending alert banner.
 
-If this month's imported usage already exceeds $0.01, the alert should trigger immediately after collection; no additional usage is needed. The budget covers the calendar month, not just usage since you created the alert.
+If this project's imported monthly usage already exceeds $0.01, the alert should trigger immediately after collection; no additional usage is needed. Other projects do not count toward this alert. The budget covers the calendar month, not just usage since you created the alert.
 
 For desktop notifications, allow browser notifications and keep the dashboard tab open.
 
