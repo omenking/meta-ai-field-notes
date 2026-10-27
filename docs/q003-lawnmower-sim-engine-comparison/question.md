@@ -39,3 +39,16 @@ Here's is the zip of the generated output from the Wonder Full 1.0 run:
 
 Here is the author's original claim against Opus 5.5:
 - ![](./x-claim.png)
+
+## 3d Workflows to Test
+Here are the workflows we want to test:
+
+1. 3D workflows:
+- Unity MCP & CLI
+- Unreal MCPs
+- Blender MCP
+
+## Follow Up Questions
+
+- [Q004](../q004-multimodal-ui-and-sprite-pipelines/question.md) [unexplored] Can Muse Wonder reproduce a UI and extend its pixel-art style?
+- [Q005](../q005-browser-automation-blocker-adaptability/question.md) [unexplored] Can Muse Wonder recover from browser automation blockers?
